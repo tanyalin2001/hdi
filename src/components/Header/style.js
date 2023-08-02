@@ -1,6 +1,7 @@
-import { alpha, makeStyles } from '@mui/material';
+import { alpha } from '@mui/material';
+import { styled } from "@mui/system"; 
 
-export default makeStyles((theme) => ({
+export default styled((theme) => ({
   title: {
     display: 'none',
     [theme.breakpoints.up('sm')]: {
